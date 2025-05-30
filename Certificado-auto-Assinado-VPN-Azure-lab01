@@ -1,6 +1,6 @@
 # Comando para gerar o certificado auto assinado
 $cert = New-SelfSignedCertificate -Type Custom -KeySpec Signature  `
--Subject "CN=CertificadoPrincipalVPN" -KeyExportPolicy Exportable  `
+-Subject "CN=Certif-PrincipalVPN" -KeyExportPolicy Exportable  `
 -HashAlgorithm sha256 -KeyLength 2048 `
 -CertStoreLocation “Cert:\CurrentUser\My” -KeyUsageProperty Sign -KeyUsage CertSi
 
